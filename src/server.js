@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 5600;
 
 app.use(
     cors({
-    origin: "https://vibelyy.vercel.app/",
+    origin: "http://localhost:5173",
     credentials : true  // allow frontend to send the cookies
 })
 );
